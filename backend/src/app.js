@@ -1,6 +1,7 @@
 import express from 'express'; 
 import mongoose from 'mongoose';
 import path from 'path';
+import cors from 'cors';
 import routes from './routes';
 
 
@@ -19,6 +20,7 @@ class App {
 
   middlewares() {
 
+    this.server.use(cors({}));
     //ao clicar na url, ele abre no navegador
     this.server.use(
       '/files',
