@@ -1,0 +1,24 @@
+Node JS
+- backend: tudo o que um usuário não enxerga (banco, lógica, regra de negócio, etc)
+- rotas/eventos: usuário acessa determinado endereço e retornamos um processo para o front
+- plataforma de desenvolvimento de aplicações (não é uma linguagem)
+- npm/yarn: gerenciadores de pacotes
+
+Características do NodeJS
+- arquitetura Event-Loop: formada por uma call stack (pilha de eventos)
+- single thread: executa apenas em uma thread do processador
+- non-blocking I/O: capacidade de fazer operações de entrada e saída sem que a aplicação fique impedida de executar outras coisas em paralelo
+
+API Rest
+- fluxo de requisição e resposta
+- front recebe os dados (resposta) e processa
+- varios clientes (front), comunicação padronizada (web, mobile, desktop)
+- estrutura de dados: JSON (JavaScript Object Notation)
+- métodos HTTP e HTTP Codes (1xx, 2xx, 3xx, 4xx)
+
+Nodemon
+- comando para iniciar o servidor: yarn dev
+
+ESLint:
+- comando para rodar todas as correções:
+  yarn eslint --fix src --ext .js
